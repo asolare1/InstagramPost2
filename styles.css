@@ -1,8 +1,74 @@
+
+body{
+    background-color: black;
+}
 div{
-    border: 1px solid red;
+   
+    background-color: white;
+}
+.cardheader{
+    display: flex;
+    background: white;
+}
+.cardnames{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.cardbody{
+    width: 600px;
+    margin: auto;
+}
+.html5{
+    font-size: 35px;
+    margin-top: 1.55%;
+    padding-left: 10px;
+}
+.dots{
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+    margin-top: 1%;
+    padding-right: 10px;
+}
+.pic img{
+    width: 100%;
+}
+.cardicons{
+    display: flex;
 }
 .lefticons{
     display: flex;
-    flex-direction: row;
-    font-size: 2rem;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+.righticons{
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+    padding: 5px;
+    padding-top: 1px;
+    padding-right: 10px;
+    
+}
+.heart{
+    padding: 5px
+}
+.comment{
+    padding: 5px
+}
+.plane{
+    padding: 5px 
+}
+.cardlikes{
+    padding: 8px;
+    padding-bottom: 0;
+    margin-left: 10px;
+}
+.cardtext{
+    padding: 8px;
+    padding-top: 0;
+    margin-left: 10px;
+    padding-bottom: 30px;
 }
